@@ -69,7 +69,7 @@
                                     <a class="nav-link active" href="#services">SERVICES</a>
                                 </li>
                                 <li class="nav-item me-5">
-                                    <a class="nav-link active" href="#contact">CONTACTS</a>
+                                    <a class="nav-link active" href="#footer">CONTACTS</a>
                                 </li>
                                 <li>
                                     <form class="d-flex submit-talk">
@@ -203,7 +203,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div id="video-carousel1" class="carousel carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner video-media-margin">
                         <div class="carousel-item active">
                             <div class="card">
@@ -240,23 +240,22 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel1"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-
             </div>
         </div>
         <div class="row technologies-margin-top">
             <div class="col-md-6">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div id="video-carousel2" " class=" carousel carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
@@ -293,13 +292,13 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel2"
+                        data-bs-slide=" prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel2"
+                        data-bs-slide=" next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -329,7 +328,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div id="video-carousel3" " class=" carousel carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
@@ -366,13 +365,13 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel3"
+                        data-bs-slide=" prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel3"
+                        data-bs-slide=" next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
