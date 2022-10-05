@@ -39,13 +39,12 @@
     background-blend-mode: overlay;
 }
 </style>
-
 <div class="background-image">
     <div class="container sticky-md-top">
         <div class="container-fluid">
             <header>
-                <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                    <div class="container-fluid">
+                <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+                    <div class="container">
                         <a class=" navbar-brand logo-margin-right" href="#">
                             <img src="<?php echo base_url(); ?>assets/images/logo.svg" class="d-inline-block align-top">
                         </a>
@@ -54,31 +53,32 @@
                             aria-expanded="false">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul class="navbar-nav transparent-color">
-                                <li class="nav-item me-5">
+                                <li data-color="white" class="nav-item me-5">
                                     <a class="nav-link active margin-home" href="#banner">HOME</a>
                                 </li>
-                                <li class="nav-item me-5">
+                                <li data-color="white" class="nav-item me-5">
                                     <a class="nav-link active" href="#technologies">TECHNOLOGIES</a>
                                 </li>
-                                <li class="nav-item me-5 ">
+                                <li data-color="white" class="nav-item me-5 ">
                                     <a class="nav-link active" href="#">ABOUT</a>
                                 </li>
-                                <li class="nav-item me-5">
+                                <li data-color="white" class="nav-item me-5">
                                     <a class="nav-link active" href="#services">SERVICES</a>
                                 </li>
-                                <li class="nav-item me-5">
+                                <li data-color="white" class="nav-item me-5 nav-center">
                                     <a class="nav-link active" href="#footer">CONTACTS</a>
                                 </li>
                                 <li>
-                                    <form class="d-flex submit-talk">
+                                    <form class="d-flex submit-talk ">
                                         <button class="btn btn-outline-light margin-btn-talk" type="submit">LETS
                                             TALK</button>
                                     </form>
                                 </li>
                             </ul>
                         </div>
+
                     </div>
                 </nav>
             </header>
@@ -208,35 +208,35 @@
                         <div class="carousel-item active">
                             <div class="card">
                                 <div class="card-vid-top">
-                                    <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                    <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                        allowfullscreen></iframe> -->
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qmX4C5viy60"
+                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qmX4C5viy60"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                     </div>
@@ -255,40 +255,40 @@
         </div>
         <div class="row technologies-margin-top">
             <div class="col-md-6">
-                <div id="video-carousel2" " class=" carousel carousel-dark" data-bs-ride="carousel">
+                <div id="video-carousel2" class=" carousel carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
                                 <div class="card-vid-top">
-                                    <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                    <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                        allowfullscreen></iframe> -->
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qmX4C5viy60"
+                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qmX4C5viy60"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                     </div>
@@ -328,40 +328,40 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div id="video-carousel3" " class=" carousel carousel-dark" data-bs-ride="carousel">
+                <div id="video-carousel3" class=" carousel carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
                                 <div class="card-vid-top">
-                                    <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                    <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                        allowfullscreen></iframe> -->
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qmX4C5viy60"
+                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qmX4C5viy60"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-vid-top">
-                                <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                <!-- <iframe width="543" height="362" src="https://www.youtube.com/embed/jNQXAC9IVRw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
                             </div>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                                         class="d-block w-100" alt="...">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Web Design and Development</h5>
+                                    <h5 class="card-title">Systems Design and Development</h5>
                                     <p class="card-text">With our agile development philosophy, we work through design,
                                         development, testing, and release with a focus on enabling your business as
                                         quickly as possible with utmost quality.</p>
@@ -457,41 +457,49 @@
         <div class="banner-contact">
             <h1 class="text-light">CONTACT US</h1>
         </div>
-        <div class="container align-center mt-5 pt-5" id="responsive">
-            <div class="row justify-content-center">
-                <div class="col-md-6 body-head ">
+        <div class="container align-center mt-5" id="responsive">
+            <div class="row justify-content-between">
+
+                <div class="col-lg-6 col-12 body-head d-flex flex-row justify-content-center ">
                     <div class="build-header">Build your project with us!</div>
-                    <br>
-                    <br>
                     <div class="body-large-r">
-                        Where excited to hear your plans.
+                        <p>
+                            Where excited to hear your plans.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-4 margin-responsive ">
-                    <form id="form-margin" role="form" method="post"
-                        action="<?php echo base_url('Pages/user_post'); ?>">
+                <div class="col-lg-6 col-12 d-flex flex-row justify-content-center">
+                    <form id="form-margin" role="form" method="post" action="<?php echo base_url() ?>Pages/user_post">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control white-text  " id="name"
-                                placeholder="Enter your name" style="color: white;">
+                                placeholder="Enter your name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control mt-3 white-text " id="email"
-                                placeholder="Enter your email" style="color: white;">
+                            <input type="email" name="email" class="form-control mt-4 white-text " id="email"
+                                placeholder="Enter your email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="ype_of_service" class="form-control mt-3 white-text "
-                                id="type_of_service" placeholder="Type of services you want from us"
-                                style="color: white;">
+                            <select type="text" name="type_of_service" class="mt-4 white-text " id="type_of_service"
+                                placeholder="Type of services you want from us" required>
+                                <option style="color:black ;" value="">Type of services you want from us</option>
+                                <option style="color:black ;" value="Web Desgin and Development">Web Desgin and
+                                    Development</option>
+                                <option style="color:black ;" value="Application Maintenance and Support">Application
+                                    Maintenance and Support
+                                </option>
+                                <option style="color:black ;" value="System Integration">System Integration</option>
+                                <option style="color:black ;" value="Mobile and Web Development">Mobile and Web
+                                    Development</option>
+                            </select>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control mt-3 white-text " name="message" id="message" rows="4"
-                                placeholder="Message" style="color: white;"></textarea>
+                            <textarea class="form-control mt-4 white-text " name="message" id="message" rows="4"
+                                placeholder="Message" required></textarea>
                         </div>
                         <br>
                         <br>
-                        <form class="center">
-                            <button type="button" class="btn btn-submit col-5">SUBMIT</button>
-                        </form>
+                        <input type="submit" class="btn btn-submit col-5" value="SUBMIT" name="submit">
+
                     </form>
                 </div>
             </div>
@@ -503,9 +511,9 @@
             <div class="container footer-font">
                 <div class="row">
                     <div class="col border-box middle-border">
-                        <a class="navbar-brand logo-margin-top" href="#">
-                            <img src="<?php echo base_url(); ?>assets/images/logo.svg" width="112.98px" height="31px"
-                                style="
+                        <a class="navbar-brand" href="#">
+                            <img class="logo-margin-top" src="<?php echo base_url(); ?>assets/images/logo.svg"
+                                width="112.98px" height="31px" style="
                             margin-top: 30px;">
                         </a>
                         <div class="caption-r">We ara a lorem ipsum dolor sit amet, consectetur
@@ -566,28 +574,28 @@
         </div>
         <div class="container">
             <div class="footer navbar-expand-lg">
-                <div class="collapse justify-content-evenly navbar-collapse" id="footer-nav">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item me-5 ">
+                <div class="navbar justify-content-evenly no-pad" id="footer-nav">
+                    <ul class="navbar-nav row-nav flex-row mb-2 mb-lg-0">
+                        <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#banner"
                                 style="color: #8C8C8C;">Home</a>
                         </li>
-                        <li class="nav-item me-5 ">
+                        <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#technologies"
                                 style="color: #8C8C8C;">Technologies</a>
                         </li>
-                        <li class="nav-item me-5">
+                        <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#" style="color: #8C8C8C;">About</a>
                         </li>
-                        <li class="nav-item me-5">
+                        <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#services"
                                 style="color: #8C8C8C;">Services</a>
                         </li>
-                        <li class="nav-item me-5">
+                        <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#clients"
                                 style="color: #8C8C8C;">Clients</a>
                         </li>
-                        <li class="nav-item me-5">
+                        <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#contact"
                                 style="color: #8C8C8C;">Contact</a>
                         </li>

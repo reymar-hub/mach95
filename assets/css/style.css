@@ -31,14 +31,20 @@
 
 h1 {
     font-weight: bolder;
-} 
+}
 
 
-.fixed-top{
+.fixed-top {
     background: rgba(109, 109, 109, 0.21);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
     height: 100px;
-} 
+    transition: 0.3s ease-in-out;
+}
+
+.scrolled-top {
+    background-color: hwb(255deg 0% 76% / 85%) !important;
+    transition: background-color 200ms linear;
+}
 
 .btn-more {
     margin-top: 20px;
@@ -65,19 +71,20 @@ h1 {
     background: linear-gradient(90deg, #2312DC -24.17%, #910000 189.05%);
     border-radius: 8px;
     color: white;
-} 
-.btn-grad-small{
+}
+
+.btn-grad-small {
     color: white;
     background: linear-gradient(98.61deg, #223CC3 -48.81%, #9C1B1B 183.46%);
-   
+
 }
 
 .center {
     align-content: center;
-} 
+}
 
 #name {
-
+    color: white;
     width: 448px;
     height: 48px;
     background: rgba(198, 182, 232, 0.32);
@@ -86,6 +93,7 @@ h1 {
 }
 
 #email {
+    color: white;
     align-items: center;
     width: 448px;
     height: 48px;
@@ -95,6 +103,7 @@ h1 {
 }
 
 #type_of_service {
+    color: white;
     align-items: center;
     width: 448px;
     height: 48px;
@@ -104,16 +113,19 @@ h1 {
 }
 
 #message {
+    color: white;
     align-items: center;
     width: 448px;
     height: 128px;
     background: rgba(198, 182, 232, 0.32);
     border: 1px solid #7D80CE;
     border-radius: 8px;
-} 
- .mt-10{
+}
+
+.mt-10 {
     height: 2219px;
 }
+
 .banner-tech h1 {
     padding-top: 100px;
     font-weight: 700;
@@ -134,31 +146,39 @@ h1 {
 
 .banner-services {
     text-align: center;
-} 
- .services-header-margin{
+}
+
+.services-header-margin {
     padding-top: 100px;
 }
-.carousel-margin-top{
+
+.carousel-margin-top {
     margin-top: 200px;
 }
+
 .text-light {
     font-weight: 700;
     font-size: 50px;
     line-height: 64px;
 }
- 
- .banner-contact {
+
+.banner-contact {
     text-align: center;
     padding-top: 100px;
 }
 
 .title-header {
-    font-weight: 600 ;
-    font-size: 38px ;
+    font-weight: 600;
+    font-size: 38px;
     line-height: 46px;
     text-align: justify;
 
     color: #343434;
+}
+
+.transparent-color {
+    font-size: 16px;
+    text-shadow: #000000;
 }
 
 .title-body {
@@ -168,8 +188,9 @@ h1 {
 
     color: #505050;
 
-} 
- .card-wrapper{
+}
+
+.card-wrapper {
     display: flex;
 }
 
@@ -194,7 +215,7 @@ h1 {
 .card-margin-top {
     margin-top: 200px;
 
-} 
+}
 
 .body-head {
     align-self: center;
@@ -209,13 +230,13 @@ h1 {
 .align-all {
     align-content: center;
     margin-top: 50px;
-} 
+}
 
- 
+
 .no-grad {
     box-sizing: border-box;
     width: 359px;
-    height: 402px;  
+    height: 402px;
     background: rgba(189, 189, 189, 0.1);
     border: 1px solid #7A7A7A;
     border-radius: 8px;
@@ -231,26 +252,21 @@ h1 {
     border-radius: 8px;
 }
 
-.logo-margin-top {
-    margin-top: 48px;
-} 
-.logo-margin-right img{
+.logo-margin-right img {
     width: 210px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
-.margin-btn-talk{
-    width: 122px; 
-    height: 44px; 
-    margin-left:100px
+
+.margin-btn-talk {
+    font-size: 16px;
+    width: 122px;
+    height: 44px;
 }
-.margin-home{
-    margin-left: 40px;
-}
+
 .box-1 {
     border-bottom: 1px #7A7A7A solid;
 }
-.middle-border{
+
+.middle-border {
     border-right: 1px #A5A5A5 solid;
 }
 
@@ -268,7 +284,7 @@ h1 {
     font-weight: 400;
     font-size: 12px;
     color: #8C8C8C;
-} 
+}
 
 .body-normal-r {
     font-style: normal;
@@ -307,7 +323,7 @@ h1 {
     font-size: 14px;
     line-height: 17px;
     color: #8C8C8C;
-} 
+}
 
 .body-large-r {
     position: absolute;
@@ -328,7 +344,7 @@ h1 {
 
 .top-margin {
     margin-top: 40px;
-} 
+}
 
 .input-group {
     margin-top: 40px;
@@ -341,7 +357,6 @@ h1 {
     background: #DBDCFF;
     border-radius: 8px;
 }
-
 
 
 .slider {
@@ -363,7 +378,7 @@ h1 {
     display: flex;
     width: calc(250px * 20);
     animation: scroll 40s linear infinite;
-} 
+}
 
 .slide-track:hover {
     animation-play-state: paused;
@@ -385,7 +400,7 @@ h1 {
     display: flex;
     align-items: center;
     perspective: 200px;
-} 
+}
 
 img {
     width: auto;
@@ -404,9 +419,10 @@ img {
 
 .carousel-video-inner {
     text-align: center;
-} 
+}
+
 .carousel-inner {
-padding: 1em;
+    padding: 1em;
 }
 
 .card {
@@ -417,13 +433,13 @@ padding: 1em;
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: transparent;  
+    background-color: transparent;
     width: 6vh;
     height: 6vh;
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
-} 
+}
 
 @media (min-width: 768px) {
     .carousel-item {
@@ -448,6 +464,10 @@ padding: 1em;
     margin-top: 30px;
 }
 
+.nav-margin {
+    margin-right: 70px;
+}
+
 .card img {
     max-height: 100%;
 }
@@ -456,359 +476,379 @@ padding: 1em;
     .card .img-wrapper {
         height: 17em;
     }
-} 
+}
 
+@media screen and (max-width: 575px) {
+    .no-pad {
+        padding: 0;
+    }
 
-    /* // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+    .logo-margin-top {
+        margin-top: 1px !important;
+    }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+    .nav-margin {
+        margin-right: 0 !important;
+    }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+    .row-nav {
+        font-size: 10px;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        display: list-item;
+        columns: 3;
+        -webkit-columns: 3;
+        text-align: center;
+    }
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+    .tm-align {
+        margin-top: 0;
+    }
 
-// XX-Large devices (larger desktops, 1400px and up) */
-    @media screen and (max-width: 576px) {
     #banner h1 {
         font-size: 40px;
-        }
-        #banner p{
+    }
+
+    #banner p {
         font-size: 20px;
-        }
-        .banner-tech h1{
-            font-size: 40px;
-            margin-bottom: 50px;
-        }
-        .title-header{
-            font-size: 30px;
-        }
-        .title-body{
-            font-size: 15px;
-        }
-        .banner-services h1{
-            font-size: 40px;
-        }
-        .banner-contact h1{
-            padding-top: 0 !important;
-            font-size: 40px;
-            margin-top: 10px;
-        }
-        .banner-contact{
-            padding-top: 20px !important;
-        }
-        .margin-responsive{
-            padding-top: 20px !important;
-            margin-top: 50px !important;
-        }
-        .build-header{
-            font-size: 28px;
-        }
-        .mt-5 {
-            margin-top: 0 !important;
-            padding-top: 0 !important;
-        }
-        .body-large-r{
-        font-size:15px ;
-        }
-        #name, #email, #type_of_service, #message, .btn-submit, .btn-media{
-            width: 365px;
-        }
-        .top-margin{
-            margin-top: 0;
-        }
-        .body-small-r{
-            margin-top: 20px;
-            font-size: 12px;
-        }
-        .flex-row, .btn-media {
-            margin-top: 5px;
-        }
-        .caption-r{
-            font-size: 10px;
-        }
-        .body-normal-r{
-            font-size: 14px;
-        }
-        .no-grad{
-            width: 310px;
-        }
-        .no-grad:hover {
-        width: 310px;
-        }
-        .card-text {
-        margin-top: 20px;
-        }
-        .btn-linear{
-        font-size: 12px;
-        }
-        .btn-grad-small{
-            font-size: 13px;
-        }
-        .logo-margin-right img ,.margin-home{
-        margin-left: 0!important;
-        margin-right: 0;
-        }
-        .margin-btn-talk{
-        margin-left: 0;
-        font-size: 12px;
-        }
-        .transparent-color{
+    }
+
+    .banner-tech h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .transparent-color {
         background: rgba(109, 109, 109, 0.21);
-        }
-        .fixed-top{
-            height: 80px;
-            font-size: 12px;
-        } 
-        .title-header{
-            font-size:25px ;
-        }
-        .video-media-margin{
-            margin-bottom: 80px;
-        }
-        .body-media-margin{
-            margin-bottom: 80px;
-        }
-    }   
-    @media screen and (max-width: 768px) {
-        .technologies-margin-top {
-        margin-top: 0px;
+        text-shadow: 0px 2px black;
     }
-    
-    .technologies-margin-bottom {
-        margin-bottom: 0px;
+
+    .title-header {
+        font-size: 30px;
     }
+
+    .title-body {
+        font-size: 15px;
+    }
+
+    .banner-services h1 {
+        font-size: 40px;
+    }
+
+    .banner-contact h1 {
+        padding-top: 0 !important;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .banner-contact {
+        padding-top: 20px !important;
+    }
+
+    .margin-responsive {
+        padding-top: 20px !important;
+        margin-top: 50px !important;
+    }
+
+    .build-header {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .mt-5 {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .body-large-r {
+        font-size: 15px;
+    }
+
+    #name,
+    #email,
+    #type_of_service,
+    #message,
+    .btn-submit,
+    .btn-media {
+        width: 365px;
+    }
+
+    .top-margin {
+        margin-top: 0;
+    }
+
+    .body-small-r {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .flex-row,
+    .btn-media {
+        margin-top: 5px;
+    }
+
+    .caption-r {
+        font-size: 10px;
+    }
+
+    .body-normal-r {
+        font-size: 14px;
+    }
+
+    .no-grad {
+        width: 310px;
+    }
+
+    .no-grad:hover {
+        width: 310px;
+    }
+
+    .card-text {
+        margin-top: 20px;
+    }
+
+    .btn-linear {
+        font-size: 12px;
+    }
+
+    .btn-grad-small {
+        font-size: 13px;
+    }
+
+    .logo-margin-right img,
+    .margin-home {
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+
+    .margin-btn-talk {
+        margin-left: 0;
+        font-size: 14px;
+        text-shadow: 0px 2px black;
+    }
+
+    .fixed-top {
+        height: 80px;
+        font-size: 12px;
+    }
+
+    .title-header {
+        font-size: 25px;
+    }
+
+    .video-media-margin {
+        margin-bottom: 50px;
+    }
+
+    .technologies-margin-top {
+        margin-top: 20px;
+    }
+
+    .body-media-margin {
+        margin-bottom: 80px;
+    }
+
+    #responsive {
+        margin-top: 200px;
+    }
+
+    .body-large-r p {
+        margin-top: 120px;
+    }
+
+    #form-margin {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .tm-align {
+        margin-top: 10px;
+    }
+
+    .no-pad {
+        padding: 0;
+    }
+
+    .logo-margin-top {
+        margin-top: 1px !important;
+    }
+
+    .nav-margin {
+        margin-right: 0 !important;
+    }
+
+    .row-nav {
+        font-size: 10px;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        display: list-item;
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+        text-align: center;
+    }
+
     #banner h1 {
         font-size: 50px;
-        }
-        #banner p{
-        font-size: 20px;
-        }
-        .banner-tech h1{
-            font-size: 40px;
-            margin-bottom: 50px;
-        }
-        .title-header{
-            font-size: 30px;
-        }
-        .title-body{
-            font-size: 15px;
-        }
-        .banner-services h1{
-            font-size: 40px;
-        }
-        .banner-contact h1{
-            padding-top: 0 !important;
-            font-size: 40px;
-            margin-top: 10px;
-        }
-        .banner-contact{
-            padding-top: 20px !important;
-        }
-        .margin-responsive{
-            padding-top: 20px !important;
-            margin-top: 50px !important;
-        }
-        .build-header{
-            font-size: 24px;
-        }
-        .mt-5 {
-            margin-top: 0 !important;
-            padding-top: 0 !important;
-        }
-        .body-large-r{
-        font-size:15px ;
-        }
-        #name, #email, #type_of_service, #message, .btn-submit, .btn-media{
-            width: 360px;
-        }
-        .top-margin{
-            margin-top: 0;
-        }
-        .body-small-r{
-            margin-top: 20px;
-            font-size: 12px;
-        }
-        .flex-row, .btn-media {
-            margin-top: 5px;
-        }
-        .caption-r{
-            font-size: 10px;
-        }
-        .body-normal-r{
-            font-size: 14px;
-        }
-        .no-grad{
-            width: 310px;
-        }
-        .no-grad:hover {
-        width: 310px;
-        }
-        .card-text {
-        margin-top: 20px;
-        }
-        .btn-linear{
-        font-size: 12px;
-        }
-        .btn-grad-small{
-            font-size: 13px;
-        }
-        .logo-margin-right img ,.margin-home{
-        margin-left: 0!important;
-        margin-right: 0;
-        }
-        .margin-btn-talk{
-        margin-left: 0;
-        font-size: 12px;
-        }
-        .transparent-color{
-        background: rgba(109, 109, 109, 0.21);
-        margin-top: 20px;
-        }
-        .fixed-top{
-            height: 80px;
-            font-size: 12px;
-        } 
-        .title-header{
-            font-size:25px ;
-        }
-        .video-media-margin{
-            margin-bottom: 80px;
-        }
-        .body-media-margin{
-            margin-bottom: 80px;
-        }
-    }  
-        /* @media screen and (min-width: 768px) { 
-            #banner h1 {
-                font-size: 30px;
-                }
-                #banner p{
-                font-size: 10px;
-                }
-            
-                .technologies-margin-top {
-                margin-top: 0px;
-            }
-            
-            .technologies-margin-bottom {
-                margin-bottom: 0px;
-            }
-            
-            #banner h1 {
-                font-size: 40px;
-                }
-                #banner p{
-                font-size: 20px;
-                }
-                .banner-tech h1{
-                    font-size: 40px;
-                    margin-bottom: 50px;
-                }
-                .title-header{
-                    font-size: 30px;
-                }
-                .title-body{
-                    font-size: 15px;
-                }
-                .banner-services h1{
-                    font-size: 40px;
-                }
-                .banner-contact h1{
-                    padding-top: 0 !important;
-                    font-size: 40px;
-                    margin-top: 10px;
-                }
-                .banner-contact{
-                    padding-top: 20px !important;
-                }
-                .margin-responsive{
-                    padding-top: 20px !important;
-                    margin-top: 50px !important;
-                }
-                .build-header{
-                    font-size: 24px;
-                }
-                .mt-5 {
-                    margin-top: 0 !important;
-                    padding-top: 0 !important;
-                }
-                .body-large-r{
-                font-size:15px ;
-                }
-                #name, #email, #type_of_service, #message, .btn-submit, .btn-media{
-                    width: 300px;
-                }
-                .top-margin{
-                    margin-top: 0;
-                }
-                .body-small-r{
-                    margin-top: 20px;
-                    font-size: 12px;
-                }
-                .flex-row, .btn-media {
-                    margin-top: 5px;
-                }
-                .caption-r{
-                    font-size: 10px;
-                }
-                .body-normal-r{
-                    font-size: 14px;
-                }
-                .no-grad{
-                    width: 310px;
-                }
-                .no-grad:hover {
-                width: 310px;
-                }
-                .card-text {
-                margin-top: 20px;
-                }
-                .btn-linear{
-                font-size: 12px;
-                }
-                .btn-grad-small{
-                    font-size: 13px;
-                }
-                .margin-home{
-                    margin-left: 0!important;
-                }
-                .logo-margin-right img{
-                    margin-left: 0!important;
-                    margin-right: 0;
-                    }
-                    .margin-btn-talk{
-                    margin-left: 0;
-                    font-size: 12px;
-                    }
-                .transparent-color{
-                background: rgba(109, 109, 109, 0.21);
-                }
-                .fixed-top{
-                    height: 80px;
-                    font-size: 12px;
-                } 
-                .title-header{
-                    font-size:25px ;
-                }
-                .video-media-margin{
-                    margin-bottom: 80px;
-                }
-                .body-media-margin{
-                    margin-bottom: 80px;
-                }  
-        } */
-    /* @media screen and (max-width: 1200px) {  #banner h1 {
-        font-size: 30px;
-        }
-        #banner p{
-        font-size: 10px;
-        }
+    }
 
-        .technologies-margin-top {
+    #banner p {
+        font-size: 20px;
+    }
+
+    .banner-tech h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .title-header {
+        font-size: 30px;
+    }
+
+    .title-body {
+        font-size: 15px;
+    }
+
+    .transparent-color {
+        background: rgba(109, 109, 109, 0.21);
+        text-shadow: 0px 2px black;
+    }
+
+    .banner-services h1 {
+        font-size: 40px;
+    }
+
+    .banner-contact h1 {
+        padding-top: 0 !important;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .banner-contact {
+        padding-top: 20px !important;
+    }
+
+    .margin-responsive {
+        padding-top: 20px !important;
+        margin-top: 50px !important;
+    }
+
+    .build-header {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .mt-5 {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .body-large-r {
+        font-size: 15px;
+    }
+
+    #name,
+    #email,
+    #type_of_service,
+    #message,
+    .btn-submit,
+    .btn-media {
+        width: 365px;
+    }
+
+    .top-margin {
+        margin-top: 0;
+    }
+
+    .body-small-r {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .flex-row,
+    .btn-media {
+        margin-top: 5px;
+    }
+
+    .caption-r {
+        font-size: 10px;
+    }
+
+    .body-normal-r {
+        font-size: 14px;
+    }
+
+    .no-grad {
+        width: 310px;
+    }
+
+    .no-grad:hover {
+        width: 310px;
+    }
+
+    .card-text {
+        margin-top: 20px;
+    }
+
+    .btn-linear {
+        font-size: 12px;
+    }
+
+    .btn-grad-small {
+        font-size: 13px;
+    }
+
+    .logo-margin-right img,
+    .margin-home {
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+
+    .margin-btn-talk {
+        margin-left: 0;
+        font-size: 16px;
+        text-shadow: 0px 2px black;
+    }
+
+    .fixed-top {
+        height: 80px;
+        font-size: 12px;
+    }
+
+    .title-header {
+        font-size: 25px;
+    }
+
+    .video-media-margin {
+        margin-bottom: 70px;
+    }
+
+    .technologies-margin-top {
+        margin-top: 20px;
+    }
+
+
+    .body-media-margin {
+        margin-bottom: 80px;
+    }
+
+    #responsive {
+        margin-top: 200px;
+    }
+
+    .body-large-r p {
+        margin-top: 120px;
+    }
+
+    #form-margin {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .technologies-margin-top {
         margin-top: 0px;
     }
 
@@ -817,101 +857,190 @@ padding: 1em;
     }
 
     #banner h1 {
-        font-size: 60px;
-        }
-        #banner p{
+        font-size: 70px;
+    }
+
+    #banner p {
         font-size: 20px;
-        }
-        .banner-tech h1{
-            font-size: 40px;
-            margin-bottom: 50px;
-        }
-        .title-header{
-            font-size: 30px;
-        }
-        .title-body{
-            font-size: 15px;
-        }
-        .banner-services h1{
-            font-size: 40px;
-        }
-        .banner-contact h1{
-            padding-top: 0 !important;
-            font-size: 40px;
-            margin-top: 10px;
-        }
-        .banner-contact{
-            padding-top: 20px !important;
-        }
-        .margin-responsive{
-            padding-top: 20px !important;
-            margin-top: 50px !important;
-        }
-        .build-header{
-            font-size: 34px;
-        }
-        .mt-5 {
-            margin-top: 0 !important;
-            padding-top: 0 !important;
-        }
-        .body-large-r{
-        font-size:15px ;
-        }
-        #name, #email, #type_of_service, #message, .btn-submit, .btn-media{
-            width: 360px;
-        }
-        .top-margin{
-            margin-top: 0;
-        }
-        .body-small-r{
-            margin-top: 20px;
-            font-size: 12px;
-        }
-        .flex-row, .btn-media {
-            margin-top: 5px;
-        }
-        .caption-r{
-            font-size: 10px;
-        }
-        .body-normal-r{
-            font-size: 14px;
-        }
-        .no-grad{
-            width: 310px;
-        }
-        .no-grad:hover {
-        width: 310px;
-        }
-        .card-text {
-        margin-top: 20px;
-        }
-        .btn-linear{
+    }
+
+    .banner-tech h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .title-header {
+        font-size: 30px;
+    }
+
+    .title-body {
+        font-size: 15px;
+    }
+
+    .banner-services h1 {
+        font-size: 40px;
+    }
+
+    .banner-contact h1 {
+        padding-top: 0 !important;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .banner-contact {
+        padding-top: 20px !important;
+    }
+
+    .margin-responsive {
+        padding-top: 20px !important;
+        margin-top: 50px !important;
+    }
+
+    .build-header {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .mt-5 {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .body-large-r {
+        font-size: 18px;
+    }
+
+    #name,
+    #email,
+    #type_of_service,
+    #message,
+    .btn-submit,
+    .btn-media {
+        width: 360px;
+    }
+
+    .tm-align {
+        margin-top: 10px;
+    }
+
+    .top-margin {
+        margin-top: 30px;
+    }
+
+    .bd-sm-mg {
+        margin-top: 60px;
+    }
+
+    .body-small-r {
         font-size: 12px;
-        }
-        .btn-grad-small{
-            font-size: 13px;
-        }
-        .margin-home{
-            margin-left: 0!important;
-        }
-        .logo-margin-right img{
-            margin-right: 0;
-            }
-            .margin-btn-talk{
-            margin-left: 0;
-            font-size: 12px;
-            }
-        .fixed-top{
-            height: 80px;
-            font-size: 12px;
-        } 
-        .title-header{
-            font-size:25px ;
-        }
-        .video-media-margin{
-            margin-bottom: 80px;
-        }
-        .body-media-margin{
-            margin-bottom: 80px;
-        }  
-    } */
+    }
+
+    .flex-row {
+        margin-top: 10px;
+    }
+
+    .btn-media {
+        margin-top: 30px;
+    }
+
+    .caption-r {
+        font-size: 12px;
+    }
+
+    .body-normal-r {
+        font-size: 15px;
+    }
+
+    .no-grad {
+        width: 310px;
+    }
+
+    .no-grad:hover {
+        width: 310px;
+    }
+
+    .card-text {
+        margin-top: 20px;
+    }
+
+    .btn-linear {
+        font-size: 12px;
+    }
+
+    .btn-grad-small {
+        font-size: 13px;
+    }
+
+    .logo-margin-right img,
+    .margin-home {
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+
+    .margin-btn-talk {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .fixed-top {
+        height: 80px;
+        font-size: 12px;
+    }
+
+    .title-header {
+        font-size: 25px;
+    }
+
+    .video-media-margin {
+        margin-bottom: 80px;
+    }
+
+    .body-media-margin {
+        margin-bottom: 80px;
+    }
+
+    .body-large-r p {
+        margin-top: 120px;
+    }
+
+    #form-margin {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .margin-home {
+        margin-left: 0;
+    }
+
+    .body-large-r {
+        margin-top: 80px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    #form-margin {
+        margin-top: 100px;
+    }
+
+    .body-large-r {
+        margin-top: 80px;
+    }
+
+    .submit-talk {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .body-large-r {
+        margin-top: 80px;
+    }
+
+    .submit-talk {
+        padding-left: 150px;
+    }
+}
