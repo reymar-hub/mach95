@@ -1,43 +1,43 @@
 <style>
-.background-image {
-    background-image: url("<?php echo base_url(); ?>assets/images/bg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1024px;
-    background-blend-mode: overlay;
-}
+    .background-image {
+        background-image: url("<?php echo base_url(); ?>assets/images/bg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1024px;
+        background-blend-mode: overlay;
+    }
 
-.service-background-img {
-    background-image: url("<?php echo base_url(); ?>assets/images/bg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1024px;
-    background-blend-mode: overlay;
-}
+    .service-background-img {
+        background-image: url("<?php echo base_url(); ?>assets/images/bg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1024px;
+        background-blend-mode: overlay;
+    }
 
-.bg-services {
-    background-image: url("<?php echo base_url(); ?>assets/images/ftbg.png"), linear-gradient(116.34deg, rgba(8, 8, 59, 0.95) -15.85%, #0A0A54 101.18%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1024px;
-    background-blend-mode: overlay;
-}
+    .bg-services {
+        background-image: url("<?php echo base_url(); ?>assets/images/ftbg.png"), linear-gradient(116.34deg, rgba(8, 8, 59, 0.95) -15.85%, #0A0A54 101.18%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1024px;
+        background-blend-mode: overlay;
+    }
 
-.foot-bg2 {
-    background-image: url("<?php echo base_url(); ?>assets/images/fttbg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 840px;
-    background-blend-mode: overlay;
-}
+    .foot-bg2 {
+        background-image: url("<?php echo base_url(); ?>assets/images/fttbg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 840px;
+        background-blend-mode: overlay;
+    }
 
-.footer-bg {
-    background-image: url("<?php echo base_url(); ?>assets/images/footbg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 411px;
-    background-blend-mode: overlay;
-}
+    .footer-bg {
+        background-image: url("<?php echo base_url(); ?>assets/images/footbg.png"), linear-gradient(to right, rgba(0, 0, 115, 58%), rgba(66, 15, 15, 88%));
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 411px;
+        background-blend-mode: overlay;
+    }
 </style>
 <div class="background-image">
     <div class="container sticky-md-top">
@@ -48,9 +48,7 @@
                         <a class=" navbar-brand logo-margin-right" href="#">
                             <img src="<?php echo base_url(); ?>assets/images/logo.svg" class="d-inline-block align-top">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="toggleMobileMenu"
-                            aria-expanded="false">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="toggleMobileMenu" aria-expanded="false">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -72,8 +70,8 @@
                                 </li>
                                 <li>
                                     <form class="d-flex submit-talk ">
-                                        <button class="btn btn-outline-light margin-btn-talk" type="submit">LETS
-                                            TALK</button>
+                                        <a class="btn btn-outline-light margin-btn-talk" href="#contact">LETS
+                                            TALK</a>
                                     </form>
                                 </li>
                             </ul>
@@ -95,84 +93,66 @@
         </div>
     </section>
     <div class="d-flex justify-content-center" style="margin-bottom: 180px;">
-        <button type="button" class="btn btn-more col-4">READ MORE</button>
+        <a class="btn btn-more col-4" href="#technologies">READ MORE</a>
     </div>
     <div class="slider" id="clients">
         <div class="slide-track">
-            <div class="slider slide-size" onclick="window.open('https://yeoubiphilippines.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider slide-size" onclick="window.open('https://yeoubiphilippines.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/1.png" style="width:200px ;">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://mdphomes.net/blog/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://mdphomes.net/blog/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/2.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://fivedads.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://fivedads.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/3.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://shantahl.net/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://shantahl.net/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/4.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://tbrincorporated.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://tbrincorporated.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/5.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://gfoxxint.com/info/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://gfoxxint.com/info/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/6.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://www.homesxpress.net/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://www.homesxpress.net/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/7.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://fablife.com.ph/home', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://fablife.com.ph/home', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/8.png">
             </div>
-            <div class="slider slide-size" onclick="window.open('https://bilisbenta.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider slide-size" onclick="window.open('https://bilisbenta.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/9.png" style="width:200px ;">
             </div>
             <div class="slider  slide-size" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/10.png" style="width:200px ;">
             </div>
             <!-- Same slide -->
-            <div class="slider slide-size" onclick="window.open('https://yeoubiphilippines.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider slide-size" onclick="window.open('https://yeoubiphilippines.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/1.png" style="width:200px ;">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://mdphomes.net/blog/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://mdphomes.net/blog/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/2.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://fivedads.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://fivedads.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/3.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://shantahl.net/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://shantahl.net/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/4.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://tbrincorporated.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://tbrincorporated.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/5.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://gfoxxint.com/info/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://gfoxxint.com/info/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/6.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://www.homesxpress.net/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://www.homesxpress.net/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/7.png">
             </div>
-            <div class="slider  slide-size" onclick="window.open('https://fablife.com.ph/home', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider  slide-size" onclick="window.open('https://fablife.com.ph/home', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/8.png">
             </div>
-            <div class="slider slide-size" onclick="window.open('https://bilisbenta.com/', '_blank')"
-                style="cursor:pointer;">
+            <div class="slider slide-size" onclick="window.open('https://bilisbenta.com/', '_blank')" style="cursor:pointer;">
                 <img src="<?php echo base_url(); ?>assets/images/9.png" style="width:200px ;">
             </div>
             <div class="slider  slide-size" style="cursor:pointer;">
@@ -240,13 +220,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel1"
-                        data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel1" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel"
-                        data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -292,13 +270,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel2"
-                        data-bs-slide=" prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel2" data-bs-slide=" prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel2"
-                        data-bs-slide=" next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel2" data-bs-slide=" next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -365,13 +341,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel3"
-                        data-bs-slide=" prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#video-carousel3" data-bs-slide=" prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel3"
-                        data-bs-slide=" next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#video-carousel3" data-bs-slide=" next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -389,8 +363,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card no-grad">
-                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/wdd.png"
-                                        class="d-block w-100" alt="...">
+                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/wdd.png" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Systems Design and Development</h5>
@@ -402,8 +375,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="card no-grad">
-                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/ams.png"
-                                        class="d-block w-100" alt="...">
+                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/ams.png" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Application Maintenance and Support</h5>
@@ -415,9 +387,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="card no-grad">
-                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/si.png"
-                                        class="d-block w-100" alt="..."
-                                        style="height: 66.04px; width: 52.34px!important;">
+                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/si.png" class="d-block w-100" alt="..." style="height: 66.04px; width: 52.34px!important;">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">System Integration</h5>
@@ -428,8 +398,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="card no-grad">
-                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/md.png"
-                                        class="d-block w-100" alt="..."> </div>
+                                <div class="img-wrapper"><img src="<?php echo base_url(); ?>assets/images/md.png" class="d-block w-100" alt="..."> </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Mobile and Web App Development</h5>
                                     <p class="card-text"> Reach your audience where they are. Enable your business
@@ -438,13 +407,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_items"
-                        data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_items" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_items"
-                        data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_items" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -471,16 +438,13 @@
                 <div class="col-lg-6 col-12 d-flex flex-row justify-content-center">
                     <form id="form-margin" role="form" method="post" action="<?php echo base_url() ?>Pages/user_post">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control white-text  " id="name"
-                                placeholder="Enter your name" required>
+                            <input type="text" name="name" class="form-control white-text  " id="name" placeholder="Enter your name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control mt-4 white-text " id="email"
-                                placeholder="Enter your email" required>
+                            <input type="email" name="email" class="form-control mt-4 white-text " id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-group">
-                            <select type="text" name="type_of_service" class="mt-4 white-text " id="type_of_service"
-                                placeholder="Type of services you want from us" required>
+                            <select type="text" name="type_of_service" class="mt-4 white-text " id="type_of_service" placeholder="Type of services you want from us" required>
                                 <option style="color:black ;" value="">Type of services you want from us</option>
                                 <option style="color:black ;" value="Web Desgin and Development">Web Desgin and
                                     Development</option>
@@ -493,13 +457,11 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control mt-4 white-text " name="message" id="message" rows="4"
-                                placeholder="Message" required></textarea>
+                            <textarea class="form-control mt-4 white-text " name="message" id="message" rows="4" placeholder="Message" required></textarea>
                         </div>
                         <br>
                         <br>
                         <input type="submit" class="btn btn-submit col-5" value="SUBMIT" name="submit">
-
                     </form>
                 </div>
             </div>
@@ -512,8 +474,7 @@
                 <div class="row">
                     <div class="col border-box middle-border">
                         <a class="navbar-brand" href="#">
-                            <img class="logo-margin-top" src="<?php echo base_url(); ?>assets/images/logo.svg"
-                                width="112.98px" height="31px" style="
+                            <img class="logo-margin-top" src="<?php echo base_url(); ?>assets/images/logo.svg" width="112.98px" height="31px" style="
                             margin-top: 30px;">
                         </a>
                         <div class="caption-r">We ara a lorem ipsum dolor sit amet, consectetur
@@ -562,10 +523,8 @@
                             Lets keep your business ahead of competitors. Share us your thoughts
                         </div>
                         <div class="input-group mb-3 btn-media">
-                            <input type="text" class="form-control btn-linear" placeholder="Enter your email"
-                                aria-label="email" aria-describedby="button-addon2" style=" margin-right: 20px;">
-                            <button class="btn btn-outline-secondary btn-grad-small" type="button" id="button-addon2"
-                                style="border-radius: 8px;">Submit
+                            <input type="text" class="form-control btn-linear" placeholder="Enter your email" aria-label="email" aria-describedby="button-addon2" style=" margin-right: 20px;">
+                            <button class="btn btn-outline-secondary btn-grad-small" type="button" id="button-addon2" style="border-radius: 8px;">Submit
                             </button>
                         </div>
                     </div>
@@ -577,27 +536,22 @@
                 <div class="navbar justify-content-evenly no-pad" id="footer-nav">
                     <ul class="navbar-nav row-nav flex-row mb-2 mb-lg-0">
                         <li class="nav-item nav-margin">
-                            <a class="nav-link active" aria-current="page" href="#banner"
-                                style="color: #8C8C8C;">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#banner" style="color: #8C8C8C;">Home</a>
                         </li>
                         <li class="nav-item nav-margin">
-                            <a class="nav-link active" aria-current="page" href="#technologies"
-                                style="color: #8C8C8C;">Technologies</a>
+                            <a class="nav-link active" aria-current="page" href="#technologies" style="color: #8C8C8C;">Technologies</a>
                         </li>
                         <li class="nav-item nav-margin">
                             <a class="nav-link active" aria-current="page" href="#" style="color: #8C8C8C;">About</a>
                         </li>
                         <li class="nav-item nav-margin">
-                            <a class="nav-link active" aria-current="page" href="#services"
-                                style="color: #8C8C8C;">Services</a>
+                            <a class="nav-link active" aria-current="page" href="#services" style="color: #8C8C8C;">Services</a>
                         </li>
                         <li class="nav-item nav-margin">
-                            <a class="nav-link active" aria-current="page" href="#clients"
-                                style="color: #8C8C8C;">Clients</a>
+                            <a class="nav-link active" aria-current="page" href="#clients" style="color: #8C8C8C;">Clients</a>
                         </li>
                         <li class="nav-item nav-margin">
-                            <a class="nav-link active" aria-current="page" href="#contact"
-                                style="color: #8C8C8C;">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="#contact" style="color: #8C8C8C;">Contact</a>
                         </li>
                     </ul>
                 </div>
