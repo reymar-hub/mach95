@@ -43,7 +43,8 @@ class Pages extends CI_Controller
         $mail->SMTPAuth   = true; /* enabled SMTP authentication */
         $mail->SMTPSecure = "ssl";  /* prefix for secure protocol to connect to the server */
         $mail->Host       = "smtp.gmail.com";      /* setting GMail as our SMTP server */
-        $mail->Port       = 465;                   /* SMTP port to connect to GMail */
+        $mail->Port       = 465;
+        // $mail->SMTPDebug  =  2;               /* SMTP port to connect to GMail */
         $mail->AddCC($email);
         $mail->Username   = "arcenalreymar08@gmail.com";  /* user email address */
         $mail->Password   = "rqwxtjurqnphnyfm";            /* password in GMail */
@@ -61,8 +62,8 @@ class Pages extends CI_Controller
             </body>
             </html>
         ';
-        $distination = "reylynn.arcenal@gmail.com"; // Mach95 email
-        $mail->AddAddress($distination, $name);
+        $destination = "reylynn.arcenal@gmail.com"; // Mach95 email
+        $mail->AddAddress($destination, $name);
         if (!$mail->Send()) {
             return false;
         } else {
